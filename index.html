@@ -1,69 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css"/>
-    <title>Landing page</title>
-</head>
-<body>
-    <div class="header-logo-links">
-        <div class="logo">
-            <p>Logo</p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div class="header">
+      <div class="header-container">
+        <div class="logo">Header Logo</div>
         <div class="links">
-            <a href="#">Header link one</a>
-            <a href="#">Header link two</a>
-            <a href="#">Header link three</a>
+          <a href="#">header link one</a>
+          <a href="#">header link two</a>
+          <a href="#">header link three</a>
         </div>
+      </div>
+
+      <!-- Hero Section -->
+      <div class="hero">
+        <div class="hero-text">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
+        <div class="hero-image">
+          <img
+            src="./images/images.jpeg"
+            alt="this is a placeholder for an image"
+          />
+        </div>
+      </div>
     </div>
 
-    <div class="main-content">
-        <div class="content">
-            <h1>This website is awesome</h1>
-            <p>This website has one subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
-        </div>
-
-        <div class="image">
-            <img src="./images/images.jpeg" alt="Landing page image"/>
-        </div>
-    </div>
-
+    <!-- Information Section -->
     <div class="information-section">
-        <h2>Information</h2>
-            <div class="cards-info">
-                <div class="info">
-                <img src="./images/images.jpeg" alt="Landing page image" height="150" width="150"/>
-                <p>This is a simple landing page for a website. </p>
-            </div>
-            <div class="info">
-                <img src="./images/images.jpeg" alt="Landing page image" height="150" width="150"/>
-                <p>This is a simple landing page for a website. </p>
-            </div>
-            <div class="info">
-                <img src="./images/images.jpeg" alt="Landing page image" height="150" width="150"/>
-                <p>This is a simple landing page for a website. </p>
-            </div>
-            <div class="info">
-                <img src="./images/images.jpeg" alt="Landing page image" height="150" width="150"/>
-                <p>This is a simple landing page for a website. </p>
-            </div>
+      <h2>Some random information.</h2>
+      <div class="cards-info">
+        <div class="info">
+          <div class="img-box"></div>
+          <p>this is some subtext under an illustration or image</p>
         </div>
+        <div class="info">
+          <div class="img-box"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="info">
+          <div class="img-box"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="info">
+          <div class="img-box"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+      </div>
     </div>
 
+    <!-- Quote Section -->
     <div class="quote-section">
-        <p>Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you. <span>- Isaiah 41:10</span></p>
+      <div class="quote-container">
+        <p class="quote-text">
+          This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.
+        </p>
+        <p class="quote-author">-Thor, God of Thunder</p>
+      </div>
     </div>
 
+    <!-- Call to Action Section -->
     <div class="action-section">
-        <h2>Get started today</h2>
-        <p>Sign up now to get started.</p>
-        <button>Sign up</button>
+      <div class="action-card">
+        <div class="action-text">
+          <h3>Call to action! It's time!</h3>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <button class="outline-btn">Sign up</button>
+      </div>
     </div>
 
+    <!-- Footer -->
     <div class="footer">
-        <p>Copyright © The Odin Project 2021</p>
+      <p>Copyright © The Odin Project 2021</p>
     </div>
-</body>
+  </body>
 </html>
